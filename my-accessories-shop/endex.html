@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محل الإكسسوارات - لمسة أناقة لكل يوم</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- إضافة سمة defer لضمان عمل الجافا سكريبت بعد تحميل الواجهة -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero-section">
+        <h1>محل الإكسسوارات</h1>
+        <img src="shop.png" alt="واجهة محل الإكسسوارات" width="100%">
+        <p>لمسة أناقة لكل يوم</p>
+        <nav class="navbar">
+            <button id="menu-toggle" class="menu-btn">☰ القائمة</button>
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#about-grid">من نحن</a></li>
+                <li><a href="#prices">قائمة الأسعار</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+    
+    <main class="container">
+        <section id="about-grid">
+            <div class="about-card">
+                <h2>من نحن</h2>
+                <p>نحن وجهتكم الأولى لعالم الأناقة والتميز. نقدم تشكيلة واسعة من الإكسسوارات العصرية والكلاسيكية التي تضفي سحراً خاصاً على إطلالتكم في كل المناسبات.</p>
+            </div>
+            <div class="about-card">
+                <h2>جودة وتصاميم فريدة</h2>
+                <p>نحرص على اختيار أجود الخامات المقاومة للصدأ وتغير اللون. يتم انتقاء كل قطعة بعناية فائقة لتجمع بين المتانة العالية والذوق الرفيع الذي يناسب جميع الأذواق.</p>
+            </div>
+            <div class="about-card">
+                <h2>تجربة تسوق مميزة</h2>
+                <p>نسعى دائماً لتوفير أحدث صيحات الموضة بأسعار تنافسية تناسب الجميع. نضمن لكم خدمة عملاء راقية وتغليفاً أنيقاً يجعل من مشترياتكم هدايا مثالية لمن تحبون.</p>
+            </div>
+        </section>
+
+        <section id="prices">
+            <h2 class="prices-title">قائمة الأسعار</h2>
+            <div class="prices-grid">
+                <div class="price-card" data-product="ساعات رجال" data-price="3500 دج">
+                    <h3>ساعات رجال</h3>
+                    <div class="price-tag">3500 دج</div>
+                    <img src="pexels-laurachouette-22032441.jpg" class="price-card img">
+                    <img src="pexels.png" class="price-card img">
+                    <img src="images (6).png" class="price-card img">
+                    <p>تصاميم كلاسيكية وعصرية مقاومة للماء مع ضمان.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="ساعات نساء" data-price="2000 دج">
+                    <h3>ساعات نساء</h3>
+                    <div class="price-tag">2000 دج</div>
+                    <img src="imag.jpg" class="price-card img">
+                    <img src="image.png" class="price-card img">
+                    <img src="image.jpg" class="price-card img">
+                    <p>ساعة أنيقة وخفيفة تلبس كل يوم وفي المناسبات، تصميمها كلاسيكي بحزام جلد أو معدن، أفضل هدية لأعياد الميلاد.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="أطقم مجوهرات" data-price="2200 دج">
+                    <h3>أطقم مجوهرات</h3>
+                    <div class="price-tag">2200 دج</div>
+                    <img src="pexels-pushkar-kumar-32881714-37798256.jpg">
+                    <img src="pexels-the-glorious-studio-3584518-7541808.jpg">
+                    <img src="pexels-vvs-440853-13038032.jpg">
+                    <p>قلادات وأقراط مطلية بالذهب الفاخر لا يتغير لونها.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="ساك يد" data-price="3500 دج">
+                    <h3>ساك يد</h3>
+                    <div class="price-tag">3500 دج</div>
+                     <img src="images (1).jpg" class="price-card img">
+                      <img src="images (2).jpg" class="price-card img">
+                       <img src="images.png" class="price-card img">
+                    <p>ساك يد عملي وأنيق يحمل الهاتف والنقود والمفاتيح، يتماشى مع الجينز والفساتين وكل أنواع الملابس، متوفر بألوان مختلفة.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="بوند حجاب" data-price="900 دج">
+                    <h3>بوند حجاب</h3>
+                    <div class="price-tag">900 دج</div>
+                    <img src="images (4).png" class="price-card img">
+                    <img src="images (5).png" class="price-card img">
+                    <img src="images (3).png" class="price-card img">
+                    <p>بوند قطن مريح يلبس تحت الحجاب، متوفر بجميع الألوان.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="دبوس حجاب" data-price="700 دج">
+                    <h3>دبوس حجاب</h3>
+                    <div class="price-tag">700 دج</div>
+                    <img src="images (6).jpg" class="price-card img">
+                    <img src="images (7).jpg" class="price-card img">
+                    <img src="images (8).jpg" class="price-card img">
+                    <p>دبوس صغير أنيق يثبت الحجاب من تحته، متوفر بتصاميم مختلفة.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="خواتم" data-price="1500 دج">
+                    <h3>خواتم</h3>
+                    <div class="price-tag">1500 دج</div>
+                    <img src="photo (1).jpg" class="price-card img">
+                    <img src="photo (2).png" class="price-card img">
+                    <img src="photo.png" class="price-card img">
+                    <p>خواتم بتصاميم عصرية متنوعة ومختلفة للرجال والنساء.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="أساور / براسلي" data-price="2000 دج">
+                    <h3>أساور / براسلي</h3>
+                    <div class="price-tag">2000 دج</div>
+                      <img src="صورة (1).jpg" class="price-card img">
+                        <img src="صورة (2).jpg" class="price-card img">
+                          <img src="صورة (3).jpg" class="price-card img">
+                    <p>براسلي يلبس في اليد يتماشى مع الحجاب أو مع الشعر الطويل، متوفر باللونين الذهبي والفضي.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="علبة هدايا" data-price="80 / 1500 دج">
+                    <h3>علبة هدايا</h3>
+                    <div class="price-tag">80 / 1500 دج</div>
+                       <img src="images (2).png" class="price-card img">
+                          <img src="images (1).png" class="price-card img">
+                             <img src="images (3).jpg" class="price-card img">
+                    <p>علبة فخمة تضع فيها هديتك مثل خاتم أو سلسلة أو ساعة، تأتي معها ورق وردي وربطة.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+                <div class="price-card" data-product="طقم عروس كامل" data-price="15000 دج">
+                    <h3>طقم عروس كامل</h3>
+                    <div class="price-tag">15000 دج</div>
+                     <img src="طقم (2).png" class="price-card img">
+                      <img src="طقم (4).png" class="price-card img">
+                       <img src="طقم (5).jpg" class="price-card img">
+                    <p>طقم كامل يحتوي على سلسلة وأقراط وخاتم وسوار بنفس التصميم ونفس اللون.</p>
+                    <button class="order-btn">شراء الآن</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- نافذة طلب منبثقة تفاعلية ذكية للتوجيه الفوري نحو واتساب وإنستغرام -->
+        <div id="order-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modal-title-product">تأكيد طلب المنتج</h3>
+                <p class="modal-subtitle">اختر المنصة المفضلة لديك لإتمام الطلب مع صاحب المحل:</p>
+                
+                <div class="order-channels-grid">
+                    <!-- زر التوجيه للواتساب -->
+                    <button id="order-whatsapp-btn" class="channel-btn whatsapp-color">
+                        🟢 الطلب عبر واتساب سريع
+                    </button>
+                    
+                    <!-- زر التوجيه للإنستغرام -->
+                    <button id="order-instagram-btn" class="channel-btn instagram-color">
+                        📸 الطلب عبر إنستغرام
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <address id="contact">
+            <p class="style">هذا فقط القليل، تواصل معنا لتعرف المزيد</p>
+            <div class="contact">
+                <a class="whatsapp-ptn" href="https://wa.me" target="_blank">استفسار عام عبر واتساب</a>
+                <a class="ptn insta" href="https://instagram.com" target="_blank">تابعنا على إنستقرام</a>
+                <a href="tel:+213655562019" class="tel">0655562019</a>
+            </div>
+        </address>
+
+        <footer>
+            <p>جميع الحقوق محفوظة &copy; 2026 محل الإكسسوارات</p>
+        </footer>
+    </main>
+</body>
+</html>
+يُرجى استخدام الرمز البرمجي بحذر.
